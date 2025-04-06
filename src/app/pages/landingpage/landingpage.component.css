@@ -1,0 +1,15 @@
+.container-fluid{
+    background-color: brown;
+}
+.container{
+    background-color: aqua;
+}
+.left{
+    background-color: green;
+    border-radius: 50px 50px 10px 50px;
+    height:80vh
+}
+.right{
+    background-position-y: red;
+
+}

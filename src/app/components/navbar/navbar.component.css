@@ -1,0 +1,18 @@
+.navbar-brand{
+    color: white;
+    font-weight: bolder;
+}
+.container-fluid{
+    background-color: rgb(47, 78, 213);
+    margin: 0 auto;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 1%;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.nav-link{
+    color: white;
+}
