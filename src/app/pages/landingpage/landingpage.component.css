@@ -1,15 +1,133 @@
 .container-fluid{
-    background-color: brown;
+    background-color: white;
 }
 .container{
     background-color: aqua;
 }
 .left{
-    background-color: green;
-    border-radius: 50px 50px 10px 50px;
-    height:80vh
+    background-color: rgb(221, 74, 160);
+    border-radius: 50px 50px 0px 50px;
+    height:100vh;
+    
+}
+.landing{
+    height:100vh;
+    background-color: white;
 }
 .right{
     background-position-y: red;
 
 }
+.about-image{
+    background-color: rgb(246, 223, 242);
+}
+
+.skills{ background-color: rgb(221, 74, 160);
+    border-radius: 50px 50px 0px 50px;
+}
+.skills-image{
+    background-color: rgb(246, 223, 242);
+}
+
+
+/* /////////////////////////////////// */
+/* icon: https://fortawesome.github.io/Font-Awesome/icons/ */
+/* Animation: https://daneden.github.io/animate.css/ */
+
+body{
+    background: #263238;
+  }
+  
+  .arrow-container{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+  }
+  
+  .arrow-1{
+    width: 100px;
+    height: 100px;
+    background: #00BCD4;
+    opacity: 0.5;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .arrow-2{
+    width: 60px;
+    height: 60px;
+    background: #00BCD4;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    display: table;
+  }
+  
+  .arrow-2:before{
+    width: 52px;
+    height: 52px;
+    content: "";
+    border: 2px solid #006064;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .arrow-2 i.fa{
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #006064;
+  }
+  
+  /* Custom Animate.css */
+  
+  .animated.hinge {
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+  }
+  
+  @-webkit-keyframes zoomIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.4, .4, .4);
+              transform: scale3d(.4, .4, .4);
+    }
+  
+    50% {
+      opacity: 0.5;
+    }
+    
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.4, .4, .4);
+              transform: scale3d(.4, .4, .4);
+    }
+  
+    50% {
+      opacity: 0.5;
+    }
+    
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .zoomIn {
+    -webkit-animation-name: zoomIn;
+            animation-name: zoomIn;
+  }
